@@ -1,4 +1,5 @@
-@echo off
+@echo www.MohammadSaadati.Me
+
  start "" http://mohammadsaadati.me
 SET NEWLINE=^& echo.
 
@@ -16,3 +17,11 @@ IF %ERRORLEVEL% NEQ 0 ECHO %NEWLINE%^127.0.0.1 cfxre.com>>%WINDIR%\System32\driv
 
 FIND /C /I "www.cfxre.com" %WINDIR%\system32\drivers\etc\hosts
 IF %ERRORLEVEL% NEQ 0 ECHO %NEWLINE%^127.0.0.1 www.cfxre.com>>%WINDIR%\System32\drivers\etc\hosts
+FIND /C /I "api.ipify.org" %WINDIR%\system32\drivers\etc\hosts
+IF %ERRORLEVEL% NEQ 0 ECHO %NEWLINE%^127.0.0.1 api.ipify.org>>%WINDIR%\System32\drivers\etc\hosts
+
+FIND /C /I "www.api.ipify.org" %WINDIR%\system32\drivers\etc\hosts
+IF %ERRORLEVEL% NEQ 0 ECHO %NEWLINE%^127.0.0.1 www.api.ipify.org>>%WINDIR%\System32\drivers\etc\hosts
+
+FIND /C /I "spambude.net" %WINDIR%\system32\drivers\etc\hosts
+IF %ERRORLEVEL% NEQ 0 ECHO %NEWLINE%^127.0.0.1 spambude.net>>%WINDIR%\System32\drivers\etc\hosts
